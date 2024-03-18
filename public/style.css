@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+.head{
+    background-color: rgb(56, 55, 70);
+    padding:1rem;
+    color:aliceblue;
+ 
+}
+
+.head h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+}
+
+.main{
+    height:100vh;
+    background-color:aliceblue;
+}
+
+.stock h4{
+    color:rgb(49, 57, 66);
+    margin-top:5rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block1{
+    background-color:azure;
+    border: 2px solid blanchedalmond;
+    height:10rem;
+    margin-left: 10rem;
+    display: block;
+    transition: height 0.3s ease;
+    width:fit-content;
+}
+
+.block1.expand{
+    height:auto;
+}
+
+.select_revenue select {
+    width: 140px; 
+    margin:2rem;
+}
+
+.plus{
+    margin-top:2rem;
+    margin-left:2rem;
+}
+
+.close{
+    margin-top: -3.3rem;
+    margin-left: 50rem;
+    margin-right:2rem;
+}
+
+
+.myForm {
+    display: none; /* Hide the form by default */
+    margin-top: 20px;
+
+  }
